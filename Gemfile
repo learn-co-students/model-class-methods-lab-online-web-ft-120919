@@ -5,5 +5,6 @@ gem 'sqlite3', '~>1.3.6'
 
 
 group :development, :test do
+  gem 'byebug'
   gem "rspec-rails"
 end
